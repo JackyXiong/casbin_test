@@ -1,0 +1,1 @@
+p, "r.user.ProjectId == 'pid' && (r.user.UId in ('uid1', 'uid2') || r.user.GId in ('gid1', 'gid2'))", "r.obj.AssetId in ('asset1', 'asset2') || r.obj.AssetGId in ('assetgid1', 'assetgid2')", "(r.env.SrcIPNum > 1 && r.env.SrcIPNum < 10) || (r.env.SrcIPNum > 20 && r.env.SrcIPNum < 30) && r.env.LocalClient == 1", "r.act.Action=='op'", allow
